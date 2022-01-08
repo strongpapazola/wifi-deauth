@@ -1,0 +1,1 @@
+cmd_/root/rtl8188eus/8188eu.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-headers-5.3.0-kali2-common/scripts/module-common.lds --build-id  -o /root/rtl8188eus/8188eu.ko /root/rtl8188eus/8188eu.o /root/rtl8188eus/8188eu.mod.o ;  true
